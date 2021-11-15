@@ -1,0 +1,133 @@
+ body {
+  background: #5b99db54;
+}
+.box {
+  border: 1px solid #f6f4f4;
+  padding: 100px 25px 10px 25px;
+  background: white;
+  margin: 100px auto;
+  width: 450px;
+}
+h1.box-logo a {
+  text-decoration:none;
+}
+h1.box-title {
+  color: #1783ef;
+  background: #f8f8f8;
+  font-weight: 400;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align:center;
+  margin: -100px -25px 50px;
+}
+.box-button {
+  border-radius: 5px;
+  background: #0d6efd;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 140px;
+  height: 50px;
+  margin: 30px 0px 0px 135px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-register
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:#666;
+}
+.box-input {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  border-radius: 5px;
+  width: 347px;
+  height: 50px;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#5c7186;
+}
+.sucess{
+  text-align: center;
+  color: #1783ef;
+}
+.sucess a {
+  text-decoration: none;
+  color: white;
+}
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+
+}
+.label {
+color: #0b0b0b;
+}
+p.validMessage {
+background-color: #0bf70b;
+border: #0AF63A 1px solid;
+padding: 5px 170px;
+color: #FFFFFF;
+border-radius: 3px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.center {
+  margin: auto;
+  width: 82%;
+  height:680px;
+  padding: 20px;
+}
+.footer {
+background-color: #f8f9fa;
+margin: auto;
+  width: 82%;
+  height:50px;
+  padding: 10px;
+
+   
+}
+.vide {
+background-color:#c8ddf3;
+width: 82%;
+  height:30px;
+}
+
+
+
+
+
+
